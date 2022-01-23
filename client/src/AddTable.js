@@ -91,26 +91,27 @@ const AddTable = () => {
                   {index ? (
                     <button
                       type="button"
-                      className="button remove"
+                      id="rmbtn"className="button remove"
                       onClick={() => handleRemoveClick(index)}
                     >
                       Remove
                     </button>
                   ) : null}
-                </div>
-              </div>
-            </div>
-          );
-        })}
-        <div className="button-section">
-          <button
+                  <button
             id = "bttn1"
             type="button"
             onClick={() => handleAddClick()}
           >
             Add
           </button>
-          <button  id = "bttn1" type="submit">
+                </div>
+              </div>
+            </div>
+          );
+        })}
+        <div className="button-section">
+          
+          <button  id = "bttn3" type="submit">
             Submit
           </button>
         </div>

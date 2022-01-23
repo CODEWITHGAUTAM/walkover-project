@@ -18,6 +18,23 @@ footer {
   font-size: 30px;
 
 }
+#bttn1{
+  border-radius: 5px;
+  background-color: #45a049;
+  padding: 20px;
+  width:100%;
+  color: white;
+
+
+}
+#rmbtn{
+  border-radius: 5px;
+  background-color: #45a049;
+  padding: 20px;
+  width:100%;
+  color: white;
+
+}
 
 #div1 , #div2 , #div3 , #div4 , #div4 , #div5 , #div7 , #div8{
   border-radius: 5px;
@@ -34,7 +51,7 @@ input, select{
   box-sizing: border-box;
 }
 
-#bttn1 ,#bttn2{
+#bttn2,#bttn3{
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -45,7 +62,7 @@ input, select{
   cursor: pointer;
 }
 
-#bttn1 ,#bttn2 :hover{
+#bttn2,#bttn3 :hover{
 
   background-color: #45a049;
 }
