@@ -14,3 +14,39 @@ footer {
   right: 0px;
   left: 0px;
 }
+#tn {
+  font-size: 30px;
+
+}
+
+#div1 , #div2 , #div3 , #div4 , #div4 , #div5 , #div7 , #div8{
+  border-radius: 5px;
+  background-color: #181616;
+  padding: 20px;
+}
+input, select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#bttn1 ,#bttn2{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#bttn1 ,#bttn2 :hover{
+
+  background-color: #45a049;
+}
+
